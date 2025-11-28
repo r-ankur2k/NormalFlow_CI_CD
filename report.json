@@ -61,265 +61,69 @@
   },
   "suites": [
     {
-      "title": "test\\TC05_SauceDemoAppE2E.test.ts",
-      "file": "test/TC05_SauceDemoAppE2E.test.ts",
+      "title": "test\\TC08_PlaywrightTestFixtures.test.ts",
+      "file": "test/TC08_PlaywrightTestFixtures.test.ts",
       "column": 0,
       "line": 0,
-      "specs": [],
-      "suites": [
+      "specs": [
         {
-          "title": "SauceDemo Website E2E",
-          "file": "test/TC05_SauceDemoAppE2E.test.ts",
-          "line": 3,
-          "column": 15,
-          "specs": [
+          "title": "Fixture Test File",
+          "ok": true,
+          "tags": [],
+          "tests": [
             {
-              "title": "Check Logged in",
-              "ok": true,
-              "tags": [],
-              "tests": [
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
                 {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
+                  "workerIndex": 36,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1445,
+                  "errors": [],
+                  "stdout": [
                     {
-                      "workerIndex": 14,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 1074,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": " ✅ User Log in Success !\n"
-                        },
-                        {
-                          "text": " ✅ User Logged in Check Success !\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-11-27T15:39:32.411Z",
-                      "annotations": [],
-                      "attachments": []
+                      "text": "Name : ANKUR\n"
+                    },
+                    {
+                      "text": "Number : 1234567890\n"
+                    },
+                    {
+                      "text": "Address : DELHI\n"
+                    },
+                    {
+                      "text": "Google\n"
+                    },
+                    {
+                      "text": "passed\n"
                     }
                   ],
-                  "status": "expected"
-                }
-              ],
-              "id": "ba54af5b6a2aa1da2b4a-b7f095abe71f06716918",
-              "file": "test/TC05_SauceDemoAppE2E.test.ts",
-              "line": 16,
-              "column": 9
-            },
-            {
-              "title": "Adding Products",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-27T18:53:44.643Z",
                   "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 14,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 2146,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": " ✅ Items Added to cart !\n"
-                        },
-                        {
-                          "text": " ✅ Clicked Cart Button\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-11-27T15:39:36.451Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
+                  "attachments": []
                 }
               ],
-              "id": "ba54af5b6a2aa1da2b4a-8563878785f83ce479d6",
-              "file": "test/TC05_SauceDemoAppE2E.test.ts",
-              "line": 23,
-              "column": 9
-            },
-            {
-              "title": "Validating Cart Prices",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 14,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 13,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": " ✅ item Price Check Success !\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-11-27T15:39:38.615Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "ba54af5b6a2aa1da2b4a-4ad680f307a6ab9973bf",
-              "file": "test/TC05_SauceDemoAppE2E.test.ts",
-              "line": 36,
-              "column": 9
-            },
-            {
-              "title": "Checkout",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 14,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 4197,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": " ✅ Checkout Details added & Continue !\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-11-27T15:39:38.636Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "ba54af5b6a2aa1da2b4a-478f12eb135f96825893",
-              "file": "test/TC05_SauceDemoAppE2E.test.ts",
-              "line": 44,
-              "column": 9
-            },
-            {
-              "title": "Total Price Validation",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 14,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 535,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": " ✅ Total Price of Item Correct !\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-11-27T15:39:42.843Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "ba54af5b6a2aa1da2b4a-1f9ce7d67eefde75c41c",
-              "file": "test/TC05_SauceDemoAppE2E.test.ts",
-              "line": 57,
-              "column": 9
-            },
-            {
-              "title": "Order Complete Verification",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 14,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 18,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "✅  Checkout: Complete!\n"
-                        },
-                        {
-                          "text": "✅  Thank you for your order!\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-11-27T15:39:43.389Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "ba54af5b6a2aa1da2b4a-dedd99f888ee8c16ad32",
-              "file": "test/TC05_SauceDemoAppE2E.test.ts",
-              "line": 64,
-              "column": 9
+              "status": "expected"
             }
-          ]
+          ],
+          "id": "6966f38db0181ad3c92f-be1a7ca90996791357a0",
+          "file": "test/TC08_PlaywrightTestFixtures.test.ts",
+          "line": 3,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-11-27T15:39:31.166Z",
-    "duration": 12327.154999999795,
-    "expected": 6,
+    "startTime": "2025-11-27T18:53:43.416Z",
+    "duration": 2812.984999999404,
+    "expected": 1,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
